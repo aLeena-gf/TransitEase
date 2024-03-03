@@ -1,21 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import QRCode from 'react-qr-code';
-import BusSchedule from './BusSchedule'; // Import the BusSchedule component
+import BusSchedule from './BusSchedule'; 
 
 const BusStop = () => {
-  const [routeData, setRouteData] = useState(null); // Stores the scanned route data
-  const [isScanning, setIsScanning] = useState(false); // Flag for scanning state
+  const [routeData, setRouteData] = useState(null); 
+  const [isScanning, setIsScanning] = useState(false); 
 
-  // Simulate QR code scanning (replace with actual scanning functionality)
   const handleScan = (data) => {
     setRouteData(data);
     setIsScanning(false);
   };
 
-  // Simulate initiating scan (replace with actual scanner integration)
   const startScan = () => {
     setIsScanning(true);
-    // Simulate scanning for 2 seconds and then trigger handleScan
     setTimeout(() => handleScan("your_route_data"), 2000);
   };
 
@@ -29,7 +26,7 @@ const BusStop = () => {
           <button onClick={startScan}>Scan QR Code</button>
         </>
       )}
-      {routeData && <BusSchedule routeData={routeData} />} {/* Render BusSchedule component */}
+      {routeData && <BusSchedule routeData={routeData} />} 
     </div>
   );
 };

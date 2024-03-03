@@ -10,7 +10,6 @@ const BusStop = () => {
     if (data) {
       setRouteData(data);
       setIsScanning(false);
-      // ... rest of your code
     }
   };
 
