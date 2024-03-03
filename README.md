@@ -2,8 +2,7 @@ Tink-Her Hack 2.0
 
 TransitEase
 
-##Problem Statement
-Problem Statement:
+##Problem Statement:
 
 Develop a web-based platform that streamlines the process of accessing and booking bus tickets through QR code scanning at bus stops. The system should provide users with real-time information on scheduled buses for a specific route, allow them to select preferred buses, and facilitate secure ticket bookings. The platform aims to enhance the overall user experience for commuters relying on public transportation.
 
